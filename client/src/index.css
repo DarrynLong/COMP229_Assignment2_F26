@@ -1,0 +1,38 @@
+/* Global defaults shared by every page. Component and layout styles live in App.css. */
+:root {
+  --ink: #202827;
+  --muted: #66706b;
+  --paper: #f5f2ea;
+  --blue: #77ddf7;
+  --coral: #ef7960;
+  --line: rgba(32, 40, 39, 0.18);
+  --display: "Space Grotesk", sans-serif;
+  --mono: "DM Mono", monospace;
+  font-family: var(--display);
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background: var(--paper);
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
